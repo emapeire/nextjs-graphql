@@ -11,6 +11,7 @@ export interface Characters {
 }
 
 export interface Result {
+  id: string
   name: string
   image: string
 }

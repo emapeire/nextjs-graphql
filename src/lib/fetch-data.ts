@@ -8,6 +8,7 @@ export async function fetchData() {
       query {
         characters(page: 1, filter: { name: "rick" }) {
           results {
+            id
             name
             image
           }
