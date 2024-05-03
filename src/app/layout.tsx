@@ -6,7 +6,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Next.js GraphQL Starter',
+  title: 'Next.js with GraphQL + Apollo',
   description: 'A starter for Next.js with GraphQL and Apollo Client'
 }
 
