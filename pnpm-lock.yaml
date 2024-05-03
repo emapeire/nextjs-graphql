@@ -23,9 +23,6 @@ importers:
       react-dom:
         specifier: ^18
         version: 18.3.1(react@18.3.1)
-      zod:
-        specifier: ^3.23.6
-        version: 3.23.6
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -1624,9 +1621,6 @@ packages:
 
   zen-observable@0.8.15:
     resolution: {integrity: sha512-PQ2PC7R9rslx84ndNBZB/Dkv8V8fZEpk83RLgXtYd0fwUgEjseMn1Dgajh2x6S8QbZAFa9p2qVCEuYZNgve0dQ==}
-
-  zod@3.23.6:
-    resolution: {integrity: sha512-RTHJlZhsRbuA8Hmp/iNL7jnfc4nZishjsanDAfEY1QpDQZCahUp3xDzl+zfweE9BklxMUcgBgS1b7Lvie/ZVwA==}
 
 snapshots:
 
@@ -3435,5 +3429,3 @@ snapshots:
       zen-observable: 0.8.15
 
   zen-observable@0.8.15: {}
-
-  zod@3.23.6: {}

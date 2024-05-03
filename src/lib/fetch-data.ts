@@ -2,7 +2,7 @@ import { gql } from '@apollo/client'
 import { getClient } from './apollo-client'
 import { type DataStructure } from '@/types'
 
-export async function fetchData() {
+export async function queryRSC() {
   const { data }: DataStructure = await getClient().query({
     query: gql`
       query {
